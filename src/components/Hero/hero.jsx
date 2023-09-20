@@ -1,8 +1,7 @@
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
 import ushaResume from "./resume.pdf"; // Import your resume file
-import { AiOutlineInstagram } from "react-icons/ai";
-import { FaGithub, FaLinkedinIn , FaRocket } from "react-icons/fa";
+import { FaRocket } from 'react-icons/fa';
 import Sociallinks from "../sociallinks/Sociallinks";
 
 
@@ -17,7 +16,7 @@ export const Hero = () => {
       <div className={styles.content}>
         <section className={styles.title}>
           <h4>
-            Hello <span className={styles.textColor}>I'am</span>
+            Hello <span className={styles.textColor}>Iam</span>
           </h4>
           <h1 className={styles.textColor}>Usha Kumari</h1>
           <h4>Front-developer student(2022-2024)</h4>
