@@ -5,7 +5,6 @@ import projects from "../../data/projects.json";
 import ProjectCard from "./ProjectCard";
 import styles from "./Projects.module.css";
 
-
 const Projects = () => {
   const sliderSettings = {
     // Customize the settings for the slider
@@ -23,20 +22,20 @@ const Projects = () => {
       },
     ],
   };
- 
+
   return (
     <section className={styles.container} id="projects">
-      <h2 className={styles.title}>University Projects</h2>
+      <h2 className={styles.title}>My Projects</h2>
       <Slider {...sliderSettings}>
         {projects.map((project, id) => (
           <div key={id}>
             <ProjectCard project={project} />
           </div>
         ))}
-   
       </Slider>
+
       <style>
-    {`
+        {`
       .slick-dots {
         text-align: center;
       }
@@ -63,11 +62,9 @@ const Projects = () => {
   background-color: rgba(0, 0, 0, 0.7); /* Change the background color on hover */
 }
     `}
-  </style>
+      </style>
     </section>
   );
 };
-
-
 
 export default Projects;
