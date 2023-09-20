@@ -11,15 +11,15 @@ export const Contact = () => {
           <span className={styles.contactSectionInfoIcon}> <FaMapMarkerAlt size={24} /></span>
           <div  className={styles.contactSectionInfoText}>
             <h5>Address</h5>
-           <h5>Kronborgsgränd 12 kista
+           <h5>Kronborgsgränd 12, Kista
             </h5>
           </div>
         </section>
         <section className={styles.contactSectionInfo}>
          <sapn className={styles.contactSectionInfoIcon}><FaPhone size={24} /></sapn>
         <div className={styles.contactSectionInfoText} >
-        <h5>Call me</h5>
-        <h5> 736745755 </h5>
+        <h5>Call Me</h5>
+        <h5> 0736745755 </h5>
         </div>
         
         </section>
@@ -38,7 +38,7 @@ export const Contact = () => {
       </div>
       <hr />
       <div className={styles.copyRightSection}>
-        <p>Copyright © 2023, All Right Reserved</p>
+        <p>Copyrigh @2023, All Right Reserved</p>
         <Sociallinks/>
       </div>
         

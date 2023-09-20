@@ -6,14 +6,16 @@ import Skills from "./components/skills/Skills";
 import Projects from "./components/projects/Projects";
 import { Contact } from "./components/contact/Contact";
 
+
+
 function App() {
  return (
     <div className={styles.App}>
    <NavBar/>
    <Hero/>
    <About/>
-   <Skills/>
    <Projects/>
+   <Skills/>
   <Contact/>
     </div>
   );

@@ -1,7 +1,7 @@
-
-
 import styles from "./ProjectCard.module.css";
 import { getImageUrl } from "../../utils";
+
+
 
 const ProjectCard = ({ project }) => {
     // console.log(project); // lägg till detta

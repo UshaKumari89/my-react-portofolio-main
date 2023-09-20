@@ -1,7 +1,7 @@
 @import "../../Var.css";
 /* About container */
 .container {
-position: relative;
+  position: relative;
   background-color: rgba(12, 12, 12, 0.6);
   border-radius: 1rem;
   padding: 3rem;
@@ -41,8 +41,7 @@ position: relative;
 
 @media screen and (max-width: 830px) {
   .container {
-    background-color: transparent;
-    padding: 1rem;
+ 
     margin: 3rem 2%;
   }
 

@@ -1,26 +1,35 @@
 [
-    {
-      "title": "Hotellet Bonz.ai",
-      "imageSrc": "projects/BonziHotels.png",
-      "description": "Responsive website with Semantic HTML, CSS Grid, and Flexbox. Task was to create landing, facility and booking page.",
-      "skills": ["Html", "CSS", "Flexbox", "Grid"],
-      "demo": "https://bonzi-hotels.netlify.app/",
-      "source": "https://github.com/UshaKumari89/Bonzi_website/tree/master"
-    },
-    {
-      "title": "Solar System",
-      "imageSrc": "projects/Solar-system.png",
-      "description": "In this project i have used vanilla JavaScript, and Task was to craete a Search and click functionality as well as presenting each planet. ",
-      "skills": ["Html", "CSS", "JavaScript"],
-      "demo": "https://planetsdcf529.netlify.app/",
-      "source": "https://github.com/UshaKumari89/solarSystem/tree/master"
-    },
-    {
-      "title": "CRUD-React-App",
-      "imageSrc": "projects/Contact-App.png",
-      "description": "This is a project I have map out objects from a json Save it in redux store, Then Task was to create, update and delete items from store. ",
-      "skills": ["React", "Redux", "Sass"],
-      "demo": "https://stalwart-dasik-9149e2.netlify.app/",
-      "source": "https://github.com/UshaKumari89/crud-react-final-exam"
-    }
-  ]
+  {
+    "title": "Hotellet Bonz.ai",
+    "imageSrc": "projects/BonziHotels.png",
+    "description": "Responsive website with Semantic HTML, CSS Grid, and Flexbox. Task was to create landing, facility and booking page.",
+    "skills": ["Html", "CSS", "Flexbox", "Grid"],
+    "demo": "https://bonzi-hotels.netlify.app/",
+    "source": "https://github.com/UshaKumari89/Bonzi_website/tree/master"
+  },
+  {
+    "title": "Solar System",
+    "imageSrc": "projects/Solar-system.png",
+    "description": "Vanilla JavaScript, and Task was to craete a Search and click functionality as well as presenting each planet. ",
+    "skills": ["Html", "CSS", "JavaScript"],
+    "demo": "https://planetsdcf529.netlify.app/",
+    "source": "https://github.com/UshaKumari89/solarSystem/tree/master"
+  },
+  {
+    "title": "CRUD-App-React",
+    "imageSrc": "projects/Contact-App.png",
+    "description": "React project in which i use redux store to map objects from json file, Then Task was to create, update and delete items from store. ",
+    "skills": ["React", "Redux", "Sass"],
+    "demo": "https://stalwart-dasik-9149e2.netlify.app/",
+    "source": "https://github.com/UshaKumari89/crud-react-final-exam"
+  },
+
+  {
+    "title": "Air-beans-Node",
+    "imageSrc": "projects/Solar-system.png",
+    "description": "Backend project in which i have used Express and NeDb. Task was to create, update and delete products in muen. ",
+    "skills": ["Node", "Express", "NeDB"],
+    "demo": "https://github.com/UshaKumari89/Air-beans-Exams",
+    "source": "https://github.com/UshaKumari89/Air-beans-Exams"
+  }
+]
