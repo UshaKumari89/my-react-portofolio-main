@@ -1,5 +1,3 @@
-import React from "react";
-
 import styles from "./Contact.module.css";
 import { FaMapMarkerAlt, FaPhone, FaEnvelope } from "react-icons/fa";
 import Sociallinks from "../sociallinks/Sociallinks";

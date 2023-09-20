@@ -1,4 +1,4 @@
-import styles from "./Hero.module.css";
+import styles from "./hero.module.css";
 import { getImageUrl } from "../../utils";
 import ushaResume from "./resume.pdf"; // Import your resume file
 import { FaRocket } from 'react-icons/fa';
