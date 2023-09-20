@@ -6,25 +6,7 @@ import { getImageUrl } from "../../utils";
 
 export const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  // const [scrolled, setScrolled] = useState(false);
-
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     const isScrolled = window.scrollY > 50; // adjust the number as needed
-  //     if (isScrolled !== scrolled) {
-  //       setScrolled(!scrolled);
-  //     }
-  //   };
-
-  //   document.addEventListener('scroll', handleScroll, { passive: true });
-
-  //   return () => {
-  //     // cleanup
-  //     document.removeEventListener('scroll', handleScroll);
-  //   };
-  // }, [scrolled]);
-
-
+ 
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">

@@ -1,5 +1,5 @@
 import styles from "./App.module.css";
-import { NavBar } from "./components/NavBar/NavBAr";
+import { NavBar } from "./components/Navbar/NavBar";
 import { Hero } from "./components/Hero/hero";
 import About from "./components/about/about.jsx";
 import Skills from "./components/skills/Skills";
