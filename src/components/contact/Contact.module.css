@@ -30,9 +30,8 @@ border-radius: 100%;
 .contactSectionInfoIcon:hover{
 color: var(--color-dark);
 background-color:var(--color-text);
-
-
 }
+
 .contactSectionInfoText {
 font-size: 1.4rem;
 font-family:'Roboto';
@@ -42,12 +41,11 @@ letter-spacing: 1.5px;
 
 hr{
   margin: .5rem 7rem;
- 
 }
 
 .contactSectionInfoText a {
-  color: var(--color-text);
-  text-decoration: underline;
+color: var(--color-text);
+text-decoration: underline;
 }
 
 .copyRightSection{
@@ -58,30 +56,35 @@ hr{
 }
   
 @media screen and (max-width: 830px) {
-  .container {
+.container {
     flex-direction: column;
     gap: 23px;
     padding: .5rem;
-
-  }
-  .contactSection {
-   
-    flex-direction: column;
+}
+.contactSection {
+  flex-direction: column;
   gap:20px;
- padding: 1rem .5rem;
+  padding: 1rem .5rem;
 
   }
-  hr{
-    margin-top: 1rem;
+hr{
+  margin-top: 1rem;
+  margin: 0rem;
    
-  }
-  .text {
-    display: flex;
-    flex-direction: column;
-  
-  }
+}
+.text {
+  display: flex;
+  flex-direction: column;
+}
 
-  .links {
-    align-items: center;
-  }
+.copyRightSection{
+  margin: 0 1rem ;
+  gap:2rem;
+  font-size:1.2rem;
+
+ 
+}
+.container{
+  width: 100%;
+}
 }

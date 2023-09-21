@@ -79,29 +79,13 @@ h4 {
   height: 25%;
   z-index: 1; 
   border-radius: 50%;  
-  animation-name: floating;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  border: 4px dashed #fff;
 }
 .button:hover{
   background-color: var(--color-primary);
 
 }
   /*hero section image animation*/
-@keyframes floating {
-  0% {
-    transform: translate(0, 0px);
-  }
-  50% {
-    transform: translate(0, 20px);
-  }
-  100% {
-    transform: translate(0, -0px);
-  }
-}
-  /*hero section circle*/
+/*Blor top*/
 .topBlur {
   position: absolute;
   width: 50vw;

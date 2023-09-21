@@ -22,11 +22,9 @@
     "skills": ["React", "Redux", "Sass"],
     "demo": "https://stalwart-dasik-9149e2.netlify.app/",
     "source": "https://github.com/UshaKumari89/crud-react-final-exam"
-  },
-
-  {
+  },{
     "title": "Air-beans-Node",
-    "imageSrc": "projects/Solar-system.png",
+    "imageSrc": "projects/project.png",
     "description": "An Express and NeDb school project focused on seamless product management within a digital marketplace, featuring create, update, and delete functionalities.. ",
     "skills": ["Node", "Express", "NeDB"],
     "demo": "https://github.com/UshaKumari89/Air-beans-Exams",
@@ -39,5 +37,13 @@
     "skills": ["Html", "CSS", "Bootstrap"],
     "demo": "https://cooking-home.netlify.app/",
     "source": "https://github.com/UshaKumari89/Home_cooking"
+  },
+  {
+    "title": "Yoga App",
+    "imageSrc": "projects/yoga.png",
+    "description": "Immerse yourself in the world of yoga through this website, visit this website which i Have  created with HTML, CSS, and javascript suring summer. ",
+    "skills": ["Html", "CSS", "js"],
+    "demo": "https://yogstudio-project.netlify.app/",
+    "source": "https://github.com/UshaKumari89/Nti_project"
   }
 ]

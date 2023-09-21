@@ -38,7 +38,7 @@ export const Contact = () => {
       </div>
       <hr />
       <div className={styles.copyRightSection}>
-        <p>Copyrigh @2023, All Right Reserved</p>
+        <p>Copyright @2023</p>
         <Sociallinks/>
       </div>
         

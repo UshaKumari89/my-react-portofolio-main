@@ -40,7 +40,6 @@ margin:2rem auto;
   gap: 6px;
 
 }
-
 .skill {
   font-family: 'Roboto';
   font-size: 1.2rem;
@@ -53,8 +52,6 @@ margin:2rem auto;
   width: 100%;
   display: flex;
   gap:1rem
-
- 
 }
 
 .link {

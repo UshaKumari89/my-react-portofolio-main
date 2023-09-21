@@ -16,15 +16,15 @@
 .projects {
   margin-top: 37px;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 15px;
-  width: 100%;
+
 }
 @media screen and (max-width: 830px){
-.title {
-   margin:0 -5rem ;
-  }
+  .container {
+  margin: 2rem;
+  } 
+ 
+
 }

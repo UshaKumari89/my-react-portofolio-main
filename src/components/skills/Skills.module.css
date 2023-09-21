@@ -74,7 +74,8 @@
 
 @media screen and (max-width: 830px) {
   .container {
-    margin: 0 1rem;
+    margin: .5rem;
+    padding: 1rem;
   }
   .skills {
     width: 100%;

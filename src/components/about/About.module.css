@@ -41,8 +41,8 @@
 
 @media screen and (max-width: 830px) {
   .container {
- 
-    margin: 3rem 2%;
+  margin:.5rem;
+  padding: 1rem;
   }
 
  

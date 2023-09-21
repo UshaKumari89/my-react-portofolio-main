@@ -1,6 +1,6 @@
 import styles from "./hero.module.css";
 import { getImageUrl } from "../../utils";
-import ushaResume from "./resume.pdf"; // Import your resume file
+import ushaResume from "./cv.pdf"; // Import your resume file
 import { FaRocket } from 'react-icons/fa';
 import Sociallinks from "../sociallinks/Sociallinks";
 
@@ -27,7 +27,7 @@ export const Hero = () => {
          to blend my creativity with code. 🎨💻
         </p>
         <button onClick={openResume} className={styles.button}>
-            <a href="#">My Resume <FaRocket className="fa-spin fa-lag" size={20} /></a> 
+            <a href="#">My Resume <FaRocket size={15} /></a> 
         </button>
 
 

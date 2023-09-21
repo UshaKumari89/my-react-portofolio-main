@@ -36,30 +36,32 @@ const Projects = () => {
 
       <style>
         {`
-      .slick-dots {
+  .slick-dots {
         text-align: center;
       }
      
-      .slick-dots li button {
+   .slick-dots li button {
         width: 12px;
         height: 12px;
         background: white;
         border-radius: 100%;
         cursor: pointer;
       }
-      .slick-prev,
-.slick-next {
+  .slick-prev,.slick-next {
   font-size: 34px; /* Adjust the font size to increase the button size */
-
   background-color: rgba(0, 0, 0, 0.5); /* Change the button background color */
-  width: 40px;
-  height: 40px; 
+  width: 30px;
+  height: 30px; 
 }
 
 /* Add hover styles for better user feedback */
 .slick-prev:hover,
 .slick-next:hover {
   background-color: rgba(0, 0, 0, 0.7); /* Change the background color on hover */
+}
+/* Add margin to create a gap between slides */
+.projectCardWrapper {
+  margin: 0 4rem; /* Adjust the margin to control the gap size */
 }
     `}
       </style>
