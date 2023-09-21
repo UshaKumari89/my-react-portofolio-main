@@ -1,15 +1,17 @@
 @import "../../Var.css";
   /*hero section container*/
 .container {
-  position: relative;
+ position: relative;
   display: flex;
   align-items: center;
   justify-content:space-around;
-  margin: 2rem 6rem;
+  margin: 4rem 6rem;
   z-index: 1;
   font-family: var(--font-roboto);
- 
+  padding-top: 3rem;
 
+  
+ 
 }
     /*hero section content*/
 .content {
