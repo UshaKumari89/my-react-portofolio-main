@@ -19,7 +19,7 @@ export const Hero = () => {
             Hello <span className={styles.textColor}>Iam</span>
           </h4>
           <h1 className={styles.textColor}>Usha Kumari</h1>
-          <h4>Front-developer student(2022-2024)</h4>
+          <h4>Front-end developer student(2022-2024)</h4>
         </section>
         
         <p className={styles.description}>
