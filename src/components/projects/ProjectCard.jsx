@@ -6,7 +6,7 @@ import { getImageUrl } from "../../utils";
 const ProjectCard = ({ project }) => {
     // console.log(project); // lägg till detta
   
-    const { title, imageSrc, description, skills, demo, source } = project;
+    const {title, imageSrc, description, skills, demo, source } = project;
         return (
  <div className={styles.container}>
         <img
